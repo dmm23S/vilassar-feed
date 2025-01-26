@@ -1,0 +1,11 @@
+                                                                           {
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:vilassar-feed.vercel.app",
+  "service": [
+    {
+      "id": "#bsky-feed",
+      "type": "BskyFeedGenerator",
+      "serviceEndpoint": "https://vilassar-feed.vercel.app/custom_feed.json"
+    }
+  ]
+}
